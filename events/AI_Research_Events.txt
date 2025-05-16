@@ -1,0 +1,20 @@
+###########################
+# Research Events
+###########################
+
+add_namespace = AI_Research_2025_Intro
+
+
+# Test Event to Test that events can appear on game start
+country_event = {
+	id = AI_Research_2025_Intro.1
+	title = AI_Research_2025_Intro.1.t
+	desc = AI_Research_2025_Intro.1.d
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = { # Ok
+		name = AI_Research_2025_Intro.1.a
+	}
+}
