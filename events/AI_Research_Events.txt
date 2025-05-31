@@ -5,7 +5,7 @@
 add_namespace = AI_Research_2025_Intro
 
 
-# Test Event to Test that events can appear on game start
+# 1st event for Canada starting partition
 country_event = {
 	id = AI_Research_2025_Intro.1
 	title = AI_Research_2025_Intro.1.t
@@ -16,5 +16,177 @@ country_event = {
 	
 	option = { # Ok
 		name = AI_Research_2025_Intro.1.a
+	}
+}
+
+# 2nd event for Canada finishing Roswell-Sirlois Commission
+country_event = {
+	id = AI_Research_2025_Intro.2
+	title = AI_Research_2025_Intro.2.t
+	desc = AI_Research_2025_Intro.2.d
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = { # Ok
+		name = AI_Research_2025_Intro.2.a
+	}
+}
+
+# 3rd event for Canada finish Crown Corporations
+country_event = {
+	id = AI_Research_2025_Intro.3
+	title = AI_Research_2025_Intro.3.t
+	desc = AI_Research_2025_Intro.3.d
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = { # Ok
+		name = AI_Research_2025_Intro.3.a
+	}
+}
+
+# 4th event for Canada finish Army Modernization
+country_event = {
+	id = AI_Research_2025_Intro.4
+	title = AI_Research_2025_Intro.4.t
+	desc = AI_Research_2025_Intro.4.d
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = { # Ok
+		name = AI_Research_2025_Intro.4.a
+	}
+}
+
+# 5th event for Canada finish CMP Truck
+country_event = {
+	id = AI_Research_2025_Intro.5
+	title = AI_Research_2025_Intro.5.t
+	desc = AI_Research_2025_Intro.5.d
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = { # Ok
+		name = AI_Research_2025_Intro.5.a
+	}
+}
+
+# 6th event for Canada becoming independent
+country_event = {
+	id = AI_Research_2025_Intro.6
+	title = AI_Research_2025_Intro.6.t
+	desc = AI_Research_2025_Intro.6.d
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	major = yes
+	
+	option = {
+		name = AI_Research_2025_Intro.6.a
+		trigger = {
+			NOT = {
+				TAG = CAN
+				TAG = ENG
+			}
+		}
+	}
+	option = {
+		name = AI_Research_2025_Intro.6.b
+		trigger = { TAG = CAN }
+	}
+	option = {
+		name = AI_Research_2025_Intro.6.c
+		trigger = { TAG = ENG }
+	}
+}
+
+# 7th event for Canada starting the permanent joint defense board
+country_event = {
+	id = AI_Research_2025_Intro.7
+	title = AI_Research_2025_Intro.7.t
+	desc = AI_Research_2025_Intro.7.d
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = { # Ok
+		name = AI_Research_2025_Intro.7.a
+	}
+}
+
+# 8th event for Canada finish the permanent joint defense board
+country_event = {
+	id = AI_Research_2025_Intro.8
+	title = AI_Research_2025_Intro.8.t
+	desc = AI_Research_2025_Intro.8.d
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = { # Ok
+		name = AI_Research_2025_Intro.8.a
+	}
+}
+
+# 9th event for Canada starting the north american allaince
+country_event = {
+	id = AI_Research_2025_Intro.9
+	title = AI_Research_2025_Intro.9.t
+	desc = AI_Research_2025_Intro.9.d
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = { # Ok
+		name = AI_Research_2025_Intro.9.a
+	}
+}
+
+# 10th event for Canada finishing Habakkuk Carrier
+country_event = {
+	id = AI_Research_2025_Intro.10
+	title = AI_Research_2025_Intro.10.t
+	desc = AI_Research_2025_Intro.10.d
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = { # Ok
+		name = AI_Research_2025_Intro.10.a
+	}
+}
+
+# 11th event for Canada starting to justify a war on Japan
+country_event = {
+	id = AI_Research_2025_Intro.11
+	title = AI_Research_2025_Intro.11.t
+	desc = AI_Research_2025_Intro.11.d
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { # Ok
+		name = AI_Research_2025_Intro.11.a
+	}
+}
+
+# 12th event for Canada declaring war on japan
+country_event = {
+	id = AI_Research_2025_Intro.12
+	title = AI_Research_2025_Intro.12.t
+	desc = AI_Research_2025_Intro.12.d
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = { # Ok
+		name = AI_Research_2025_Intro.12.a
 	}
 }

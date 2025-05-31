@@ -1,0 +1,56 @@
+
+on_actions = {
+	on_subject_free = {
+		effect = {
+			IF = {
+				limit = {
+					ROOT = {
+						original_tag = CAN
+					}
+					FROM = {
+						original_tag = ENG
+					}
+				}
+				ROOT = {
+					country_event = { id = AI_Research_2025_Intro.6 }
+				}
+			}
+		}
+	}
+	
+	on_generate_wargoal = {
+		effect = {
+			IF = {
+				limit = {
+					ROOT = {
+						original_tag = CAN
+					}
+					FROM = {
+						original_tag = JAP
+					}
+				}
+				ROOT = {
+					country_event = { id = AI_Research_2025_Intro.11 }
+				}
+			}
+		}
+	}
+	
+	on_declare_war = {
+		effect = {
+			IF = {
+				limit = {
+					ROOT = {
+						original_tag = CAN
+					}
+					FROM = {
+						original_tag = JAP
+					}
+				}
+				ROOT = {
+					country_event = { id = AI_Research_2025_Intro.12 }
+				}
+			}
+		}
+	}
+}
