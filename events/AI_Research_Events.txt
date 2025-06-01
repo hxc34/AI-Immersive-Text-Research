@@ -76,11 +76,11 @@ country_event = {
 }
 
 # 6th event for Canada becoming independent
-country_event = {
+news_event = {
 	id = AI_Research_2025_Intro.6
 	title = AI_Research_2025_Intro.6.t
 	desc = AI_Research_2025_Intro.6.d
-	picture = GFX_report_event_worker_protests
+	picture = GFX_news_event_canada_patriation
 	
 	is_triggered_only = yes
 	
@@ -90,8 +90,10 @@ country_event = {
 		name = AI_Research_2025_Intro.6.a
 		trigger = {
 			NOT = {
-				TAG = CAN
-				TAG = ENG
+				tag = ENG
+			}
+			NOT = {
+				original_tag = CAN
 			}
 		}
 	}
@@ -120,13 +122,15 @@ country_event = {
 }
 
 # 8th event for Canada finish the permanent joint defense board
-country_event = {
+news_event = {
 	id = AI_Research_2025_Intro.8
 	title = AI_Research_2025_Intro.8.t
 	desc = AI_Research_2025_Intro.8.d
-	picture = GFX_report_event_worker_protests
+	picture = GFX_news_event_canada_patriation
 	
 	is_triggered_only = yes
+	
+	major = yes
 	
 	option = { # Ok
 		name = AI_Research_2025_Intro.8.a

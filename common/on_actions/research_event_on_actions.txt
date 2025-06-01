@@ -12,7 +12,7 @@ on_actions = {
 					}
 				}
 				ROOT = {
-					country_event = { id = AI_Research_2025_Intro.6 }
+					news_event = { id = AI_Research_2025_Intro.6 }
 				}
 			}
 		}
